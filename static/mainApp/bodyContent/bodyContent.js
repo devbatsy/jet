@@ -390,7 +390,7 @@ sydDOM.CartPageBelowPanel = () =>{
     return createElement(
         'div',
         {
-            style:'padding:10px;height:fit-content;width:100%;max-width:500px;display:flex;flex-direction:column;row-gap:10px;position:sticky;bottom:0px;left:50%;transform:translateX(-50%);z-index:400'
+            style:'padding:10px;height:fit-content;width:100%;max-width:500px;display:flex;flex-direction:column;row-gap:10px;position:sticky;bottom:0px;left:50%;transform:translateX(0%);z-index:400'
         },
         [
             sydDOM.subTotalDiv(),
