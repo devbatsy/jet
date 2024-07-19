@@ -1,0 +1,259 @@
+1. HP Stream 11 Pro G4 Notebook PC
+   c: - Intel Celeron
+   r: - 4GB RAM, 64GB SSD + 64GB MMC
+   g: - 7th Generation
+   s: - 11.6" Screen Resolution
+   p: - Price: ₦130,000
+
+2. Lenovo Yoga 11E
+   c: - Intel Celeron @ 1.10GHz
+   r: - 4GB RAM, 128GB SSD
+   e: - Touchscreen
+   p: - Price: ₦135,000
+
+3. HP ProBook 11 G2 Notebook PC
+   c: - Intel Celeron
+   r: - 4GB RAM, 500GB HDD
+   g: - 6th Generation
+   e: - Touchscreen
+   s: - 11.6" Screen Resolution
+   p: - Price: ₦150,000
+
+4. Dell Latitude 3380
+   c: - Intel Core i3 @ 2.00GHz
+   r: - 4GB RAM, 128GB SSD
+   g: - 6th Generation
+   s: - 14" Screen Size
+   p: - Price: ₦150,000
+
+5. Dell Latitude 3380 Notebook PC (Two copies available)
+   c: - Intel Core i3
+   r: - 8GB RAM, 128GB SSD
+   g: - 6th Generation
+   s: - 13.3" Screen Resolution
+   p: - Price: ₦160,000
+
+6. HP ProBook x360 EE 310 G3
+   c: - Intel Pentium Silver
+   r: - 8GB RAM, 256GB SSD
+   g: - 8th Generation
+   e: - x360 Convertible Touchscreen
+   s: - 11.6" Screen Resolution
+   p: - Price: ₦160,000
+
+7. HP ProBook 640 G1
+   c: - Intel Core i5 @ 2.20GHz
+   r: - 8GB RAM, 500GB HDD
+   s: - 14" Screen Size
+   p: - Price: ₦170,000
+
+8. HP EliteBook 850 G3
+   c: - Intel Core i5 @ 2.40GHz
+   r: - 8GB RAM, 256GB SSD
+   e: - Keyboard Light
+   s: - 15.6" Full HD
+   p: - Price: ₦195,000
+
+9. Dell Latitude E7470
+   c: - Intel Core i5 @ 2.50GHz
+   r: - 8GB RAM, 256GB SSD
+   e: - Keyboard Light
+   g: - 6th Generation
+   p: - Price: ₦200,000
+
+10. Dell Latitude 3380 Notebook PC
+    c: - Intel Core i3
+    r: - 8GB RAM, 256GB SSD
+    g: - 6th Generation
+    s: - 13.3" Screen Resolution
+    p: - Price: ₦200,000
+
+11. HP EliteBook 840 G2 Notebook PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 500GB HDD
+    g: - 5th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard
+    p: - Price: ₦210,000
+
+12. Dell Latitude E7270
+    c: - Intel Core i5 @ 2.40GHz
+    r: - 8GB RAM, 256GB SSD
+    e: - Keyboard Light
+    g: - 6th Generation
+    s: - 12.5" Screen Size
+    p: - Price: ₦220,000
+
+13. Dell Latitude 5490
+    c: - Intel Core i5 @ 2.60GHz
+    r: - 8GB RAM, 256GB SSD
+    g: - 8th Generation
+    s: - 14" Full HD
+    p: - Price: ₦230,000
+
+14. HP EliteBook 840 G3 (180GB SSD)
+    c: - Intel Core i5 @ 2.40GHz
+    r: - 8GB RAM, 180GB SSD
+    e: - Keyboard Light
+    g: - 6th Generation
+    s: - 14" Full HD
+    p: - Price: ₦240,000
+
+15. HP Pro X2 612 G2 Detachable Tablet PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 256GB SSD
+    g: - 7th Generation
+    s: - 12.5" FHD Screen Resolution
+    e: - Anti-Spill Backlight Keyboard
+    p: - Price: ₦250,000
+
+16. HP EliteBook 840 G3 Notebook PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 256GB SSD
+    g: - 6th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦250,000
+
+17. Dell Latitude E5490 Notebook PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 500GB HDD
+    g: - 8th Generation
+    s: - 14.1" FHD Screen Resolution
+    e: - Anti-Spill Backlight Keyboard
+    p: - Price: ₦250,000
+
+18. HP EliteBook 820 G3 Notebook PC
+    c: - Intel Core i5
+    r: - 16GB RAM, 256GB SSD
+    g: - 6th Generation
+    s: - 12.5" FHD Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦260,000
+
+19. Dell Latitude E7280 Notebook PC
+    c: - Intel Core i5
+    r: - 16GB RAM, 256GB SSD
+    g: - 7th Generation
+    s: - 12.5" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard
+    p: - Price: ₦260,000
+
+20. Dell Latitude 7490 Notebook PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 256GB SSD
+    g: - 8th Generation
+    s: - 14.1" FHD Screen Resolution
+    e: - Anti-Spill Backlight Keyboard
+    p: - Price: ₦280,000
+
+21. HP EliteBook 1040 G3 Notebook PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 256GB SSD
+    g: - 6th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦280,000
+
+22. HP ProBook 640 G3 Notebook PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 128GB SSD
+    g: - 7th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦285,000
+
+23. Acer Aspire V3-372T-77US Notebook PC
+    c: - Intel Core i7
+    r: - 8GB RAM, 256GB SSD
+    g: - 6th Generation
+    s: - 13.3" FHD Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Touchscreen
+    p: - Price: ₦295,000
+
+24. HP EliteBook 840 G4 Notebook PC
+    c: - Intel Core i5
+    r: - 8GB RAM, 256GB SSD
+    g: - 7th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦290,000
+
+25. Dell Latitude E7480 Notebook PC
+    c: - Intel Core i7
+    r: - 16GB RAM, 256GB SSD
+    g: - 6th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard
+    p: - Price: ₦320,000
+
+26. HP ZBook 14u G5 Notebook PC
+    c: - Intel Core i5
+    r: - 16GB RAM, 256GB SSD
+    g: - 7th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦330,000
+
+27. HP ZBook 15 G2
+    c: - Intel Core i7 @ 2.70GHz
+    r: - 16GB RAM, 512GB SSD
+    e: - NVIDIA Quadro K1100M
+    s: - 15.6" Full HD
+    p: - Price: ₦330,000
+
+28. HP EliteBook 840 G3 Notebook PC
+    c: - Intel Core i7
+    r: - 8GB RAM, 512GB SSD
+    g: - 6th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦330,000
+
+29. HP EliteBook 1040 G3 Notebook PC
+    c: - Intel Core i5
+    r: - 16GB RAM, 256GB SSD
+    g: - 6th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦350,000
+
+30. HP EliteBook 1040 G3 Notebook PC
+    c: - Intel Core i7
+    r: - 16GB RAM, 512GB SSD
+    g: - 6th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦350,000
+
+31. Dell Latitude 5490 Notebook PC
+    c: - Intel Core i7
+    r: - 8GB RAM, 512GB SSD
+    g: - 8th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill , Backlight Keyboard + Touchscreen
+    p: - Price: ₦350,000
+
+32. HP EliteBook 840 G4 Notebook PC
+    c: - Intel Core i7
+    r: - 16GB RAM, 512GB SSD
+    g: - 7th Generation
+    s: - 14.1" 2K Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner
+    p: - Price: ₦375,000
+
+33. Dell Latitude 5400 Notebook PC
+    c: - Intel Core i5
+    r: - 16GB RAM, 512GB SSD
+    g: - 8th Generation
+    s: - 14.1" Screen Resolution
+    e: - Anti-Spill Backlight Keyboard
+    p: - Price: ₦370,000
+
+34. HP EliteBook 840 G6 Notebook PC
+    c: - Intel Core i7
+    r: - 16GB RAM, 512GB SSD
+    g: - 8th Generation
+    s: - 14.1" FHD Screen Resolution
+    e: - Anti-Spill Backlight Keyboard + Fingerprint Scanner + Face ID
+    p: - Price: ₦400,000
