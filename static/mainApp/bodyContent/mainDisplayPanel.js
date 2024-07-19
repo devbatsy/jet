@@ -84,7 +84,7 @@ sydDOM.mainPanelChild_capsule = ({index,route = []}) =>{
                     style:`height:100%;width:30%;background-image:url(${webUrl}/image?icon=${extractImageId(extract(index,'id').split('').reverse().join(''))});position:relative;overflow:hidden;`+styleComponent.bg(),
                     onmouseover:`panel_child_hover('${index}')`,
                     onmouseout:`panel_child_unhover()`,
-                    class:'thinBorder'
+                    class:''
                 },
                 [
                     sydDOM.sideChildTab({index:index})
@@ -149,7 +149,7 @@ sydDOM.mainPanelChild_tab = ({index}) =>{
                         method:"add",
                         style:{width:'100%',position:'relative',overflow:'hidden',backgroundImage:`url(${webUrl}/image?icon=${extractImageId(extract(index,'id').split('').reverse().join(''))})`}
                     }) + styleComponent.bg(),
-                    class:'mainPanelChild thinBorder'
+                    class:'mainPanelChild'
                 },
                 [
                     sydDOM.bottomSelectOption({index:index}),
