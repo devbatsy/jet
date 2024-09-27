@@ -104,7 +104,7 @@ sydDOM.createLinkBtn = ({content,link = true,type = ''}) =>{
     return createElement(
         link === true ? 'a' : 'p',
         {
-            style:sydDOM.mainPanelText_names().inherit(['attribute','style']) + ';cursor:pointer;color:#000;text-transform:capitalize',
+            style:sydDOM.mainPanelText_names().inherit(['attribute','style']) + ';display:block;cursor:pointer;color:#000;text-transform:capitalize',
             ...linkAttr()
         },
         [
