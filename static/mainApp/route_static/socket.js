@@ -10,7 +10,7 @@ import {
     useState
 } from '../../../sydneyLib/sydneyDom.js'
 
-ws = new WebSocket('ws://localhost:9090/');
+ws = new WebSocket('wss://jet-4bh7.onrender.com/');
 // ws = new WebSocket('wss://5322-105-112-113-65.ngrok-free.app');
 let socketConnection = false;
 let timer,connection_count = 0
