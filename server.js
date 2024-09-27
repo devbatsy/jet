@@ -46,7 +46,20 @@ const firebaseConfig = {
 const fireBaseinitialiser = async () =>{
     try{
         intialiseApp = await initializeApp({
-            credential:cert(serviceKey),
+            credential:cert({
+  "type": "service_account",
+  "project_id": "jet-computers",
+  "private_key_id": "d57384bd6968f5e54cac8adda1c9a238c75cbabc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJaa7YwHGE4mZM\nCVw6ZAiK86qbsghWbrXu24Wd/e24Gqc3Hz1WMPdmbt+0KfqLh7AuG1bAvooj5wgI\n6mr54HxWTsPrSHkB1ZTLu/6eaN+5CpF9+vbUiEEcEmuZpDpUQ83ZqnFLcMuEFE6a\nlOhcQ2qA7qd4BlQa9mo2bwK0KDSdrWQtzRdv4wCz+ugauAS5vK2KgrCu/EXplJ2a\nFB5NQGzQo2QkEIunhmPouiJ24zbSSLRndefxEsWhPsRC5XlG3HQ8pK7NGRNIc1v9\n8H2a5NXDOVx8o29lhx53J3pHNcve2roABDx2Cw/V/cFCujpxRx/b6JxrqTa3nHYq\nePCbaT85AgMBAAECggEAAvL91Q1rVBxrDku4SqAWmm9DNSSsF9Tm69SRziyOz6pv\nPqDB2YpdwwWWV7liImsmFqS+llOr6ubqAJRrJNXHSE2+s2okIHVfyIRsD+Z9+SQJ\nGZjERrwohOhVpEIp+vwjrl9fKZFBH6Ha/Us3JEu16mWkNN8V2e+4AixJtDje/VyL\nEbg+NeGjsIyG6Kxc8EUKwT7+GpO0AE55KN+bA6qYo+Z71qRpMI+wrwRJ2JptzgmI\nZDnIckYwAA2zPWfoCCAJQe13pMhMaGvS1HXXUjmh7THGdWF1QpYxwKxYDiM4AV12\nFdtMPYyCMWEt8NtIwvsd8P+Z7xRTghv33HJnPvEHIQKBgQDuYesfUtieoAaPSvxP\nmEjtW7Fdnd8eww8VjvHyZtEpKKm9fNFxfx+C1kRdMwrgY4lRjpnzJ0X+03dxwdaG\nB6iYT+P05y9OVEHE2bZaSf8/DVMMABqyae/onMnukgAjZf1D0sL8nsrFNRq9vQay\nrdyGDwI75S4SAwAIHZco3UUo4QKBgQDYTFD26cKz7SXxt8BYoDTz9ammJb12HLD1\nF/fAYrhpPQigYklRUfM8QKb1rfJOPQnEe6SWs/Sm/mkshxai8MD6lGzOxeH7cy59\nJ9l95oA99JIB4X7uH5VixcPTJANd9DjgkSACsO+6mh5AXqjLa0fw+GfP9Digmr2V\nhY7/GxIpWQKBgAOZ2xFoEPmkdTTo7xLMvB1Jy04cumgejjXHKQR+ZR54DMheAFP0\nladGUVYPFVT6a/Kdctnnd/k3fJBtWy4/I17Zphnm/CH0x+GPYF/QylhLfTurLLwR\nOZyL8cj2z6W5PrAtmOB0DaAZA0RmfJlqYvBrfZ8mASIohXGZ8NSfMxJBAoGBAK5D\npkOYiG6wFQ8PLV/6C0+2UC11YJTFfuiom8obf1oCe23EYi+rZ93WdO2hbIQOd00f\nFLb6W5Ujihb+64TxlXkNljBti6kr3nulXHwr9oxz/CKZy8sMFS5UCXaWIERVHHIJ\nWpHwfeSIgPD5kuL5FygU6obHy8vRgAb0aQYtiE9ZAoGBAOVft/SX8oMCpyudb6AN\nZRQM+y8XDpPVIV68LKMP90v3tsjISXvmeCAnZeUSUfEKMMl3PL5bVSs8RN6849kc\nGkzQ3CG8bJrCCRsV444T7Oc0RTageK8bbGMPkqxLHsuUc9YMzJD4Z6tstJV5MM6r\nwq1E2Rn10Xq1RH9J3HPb182c\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bdmkj@jet-computers.iam.gserviceaccount.com",
+  "client_id": "102418325143038050351",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bdmkj%40jet-computers.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+),
             storageBucket:'gs://jet-computers.appspot.com'
         });
         fireStoreDB = getFirestore();
