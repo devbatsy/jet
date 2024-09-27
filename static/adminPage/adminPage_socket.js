@@ -1,6 +1,6 @@
 import { __g, __u , __p, __v} from "../../sydneyLib/sydneyDom_v2.js";
 
-socket = new WebSocket('http:localhost:9090/');
+socket = new WebSocket('wss://jet-4bh7.onrender.com/');
 
 socket.addEventListener('open', () =>{
     socket.send(
