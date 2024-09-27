@@ -1,0 +1,418 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    /* outline:1px solid #333;
+    outline-style: dashed; */
+    /* list-style-type: none; */
+    color:#171717;
+    /* list-style-type:; */
+    /* color: #2b5e6eb8; */
+    /* transition: all linear .3s; */
+    /* pointer-events: ; */
+    /* color: ; */
+}
+a{
+    text-decoration: none;
+}
+a:hover
+{
+    color: grey;
+}
+.smallClickBg{
+    background-color: #cccccc;
+}
+i{
+    color:#702670;
+}
+i:hover{
+    color:#f60808eb;
+}
+.lightBorder_rad
+{
+    border-radius: 10px;
+}
+input{
+    border: none;
+    background: lightgrey;
+}
+input::placeholder
+{
+    color: #250b25a5;
+    font-weight: 600;
+}
+textarea::placeholder
+{
+    font-style: italic;
+    color: lightgrey;
+    font-size:18px;
+    font-weight: 300;
+}
+::-webkit-scrollbar
+{
+    width: 3px;
+    height: 80%;
+	background-color: transparent;
+	color:green;
+}
+::-webkit-scrollbar-track
+{
+    background:lightgrey;
+}
+p::-webkit-scrollbar-track
+{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color:#171717;
+    width: 3px;
+	border-radius: 20px;
+}
+::-webkit-scrollbar:hover ::-webkit-scrollbar-thumb{
+    width: 3px;
+}
+.paymentInfo_tab::-webkit-scrollbar-track
+{
+    background:transparent;
+}
+.paymentInfo_tab::-webkit-scrollbar-thumb
+{
+    background-color:transparent;
+    width: 3px;
+	border-radius: 20px;
+}
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.direct-child
+{
+    padding:0 10px;
+    border: 1px solid lightgrey;
+    /* max-width: 100%; */
+}
+.dropList
+{
+    min-height:30px;
+    display: flex;
+    align-items: center;
+    padding-left:10px
+}
+
+#topNonStickyContactNav
+{
+    display:flex;
+}
+
+#topStickyNav
+{
+    min-height: 120px;
+}
+
+.floatBodyContent
+{
+    top:calc(120px + 42px);
+    height:calc(100vh - ((120px - 42px)));
+}
+
+.hoverText:hover{
+    color:#f60808eb;
+}
+
+.click{
+    cursor: pointer;
+    transition: all linear .2s;
+}
+/* .click:hover
+{
+    background-color: #171717;
+}
+.click:hover i{
+    color: #fff;
+} */
+.mainPanelChild
+{
+    height:220px
+}
+.addCartBtn
+{
+    background: #702670;
+    color: #fff;
+    /* color: #250b25a5; */
+}
+.addCartBtn i{
+    color: #fff;
+}
+.addCartBtn:hover{
+    background: #f60808eb;
+    color: #000;
+}
+.addCartBtn:hover i{
+    color: #000;
+}
+.thinBorder
+{
+    border: 1px solid #B6A4B6;
+}
+.spook
+{
+    position:relative
+}
+.spook::before
+{
+    content: '';
+    position: absolute;
+    top:50%;
+    left:100%;
+    height:12px;
+    width:12px;
+    background: #fff;
+    transform: translateY(-50%) translateX(-50%) rotateZ(45deg);
+    z-index: 150;
+    box-shadow:inherit ;
+}
+.floatBodyContent_cart1
+{
+    padding:15px;
+    padding-bottom: 100px;
+}
+.paymentInfo_tab
+{
+    width:400px;
+}
+.pressDBtn
+{
+    border-bottom: 5px solid;
+    transition: border ease-out .3s,transform ease-out .3s;
+}
+.pressDBtn:active
+{
+    border-width: 0px;
+    transform: translateY(3px);
+}
+.faulty
+{
+    position: relative;
+}
+.faulty::before{
+    content:'This Feild is Required';
+    color: red;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    right:10px;
+    transform: translateY(50%);
+    font-weight: 700;
+    /* background: green; */
+}
+.loader
+{
+    position: relative;
+}
+.loader .loader_elem2
+{
+    height:calc(80% - 3px);
+    width:calc(80% - 3px);
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    /* color:#ecebeb */
+}
+.loader .loader_elem1
+{
+    height:calc(80%);
+    width:calc(80%);
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: #000;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    animation: loader_anime; 
+    animation-timing-function:linear;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+.loader .loader_elem1::after
+{
+    content: '';
+    height:50%;
+    width:100%;
+    position: absolute;
+    top:50%;
+    background:#fff;
+    border-radius: 50%;
+}
+@keyframes loader_anime
+{
+    0%{
+        transform: translateY(-50%) translateX(-50%) rotateZ(0deg);
+    }
+    100%{
+        transform: translateY(-50%) translateX(-50%) rotateZ(360deg);
+    }
+}
+@media screen and (min-width:500px){
+    .mainPanelChild
+    {
+        height:300px;
+    }
+}
+@media screen and (min-width:1200px) {
+    #topStickyNav
+    {
+        min-height: 150px;
+    }
+
+    .floatBodyContent
+    {
+        top:calc(150px + 42px);
+        height:calc(100vh - (150px - 42px));
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    #topNonStickyContactNav
+    {
+        display: none;
+    }
+
+    #topStickyNav
+    {
+        min-height: 80px;
+    }
+
+    .floatBodyContent
+    {
+        top:80px;
+        height:calc(100vh - 80px);
+    }
+    .floatBodyContent_cart1
+    {
+        padding-bottom: 70px;
+    }
+}
+@media screen and (max-width:1080px) {
+    .form_tab_checkout{
+        min-width: 100%;
+    }
+    .foldable_div
+    {
+        flex-wrap: wrap;
+    }
+    .paymentInfo_tab
+    {
+        width:100%;
+    }
+}
+.animateEntrance
+{
+    animation-name: xEntrance ;
+    animation-duration: .4s;
+    animation-timing-function: linear;
+    transform:translateY(-50%);
+    opacity: 1;
+    /* anima */
+}
+
+.animateEntrance_bodySideNav_child
+{
+    animation-name: xBodySideNavEntrance ;
+    animation-duration: .4s;
+    animation-timing-function: linear;
+    opacity: 1;
+    transition: all linear .5s;
+}
+
+.animateEntrance_opacity
+{
+    animation-name: opacityEntrance ;
+    animation-duration: .4s;
+    animation-timing-function: linear;
+    opacity: 1;
+    /* anima */
+}
+
+.mainPanelXEntrance
+{
+    animation-name: mainPanelX ;
+    animation-duration: .3s;
+    animation-timing-function: ease-out;
+}
+
+.mainPanelYEntrance
+{
+    animation-name: mainPanelY ;
+    animation-duration: .3s;
+    animation-timing-function: ease-out;
+}
+/* .arr::before
+{
+    content: "\e90d";
+} */
+@keyframes xEntrance {
+    0%{
+        transform: translateY(-50%) translateX(50%);
+        opacity: 0;
+    }
+
+    100%
+    {
+        transform: translateY(-50%) translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes xBodySideNavEntrance {
+    0%{
+        transform:translateX(50%);
+        opacity: 0;
+    }
+
+    100%
+    {
+        transform:translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes mainPanelX {
+    0%{
+        transform:translateX(100%);
+    }
+
+    100%
+    {
+        transform:translateX(0);
+    }
+}
+
+@keyframes mainPanelY {
+    0%{
+        transform:translateY(50%) translateX(-50%);
+    }
+
+    100%
+    {
+        transform:translateY(0) translateX(-50%);
+    }
+}
+
+@keyframes opacityEntrance {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "jet-computers",
+  "private_key_id": "f8c20c7789e0a61413074bbaaafaa3e4e1ce092b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDXC2pgGQVNNeaP\nZrj4sWs552ngcVt+qSsss05u1vw+RCPTcKZ1NwKTvYmMcuZP0sLh0RdbsEuGkVa8\neaN+zZykqLb9tXafNGmYwi0Aoy5rnyOT+V7stoO5GXHgyIB1KsPJb35hbQz7XW76\nqQvT/YvJXCY3OECXcpmamv2c1waYjRFv5pE8EspZ/6J2c5rjNOTbuD1qwLQX3QQW\njtdcqesgNbNKebax+Um/ltyi8jjU4idJM1Fzo0hn0JaRmqREnTOfeF2Mzd43ELlY\nXgvpggNf/sDJcbTBZaNkc1MXtXp5pAuUWGe1mzFAI9iGiRnZDVGH1QYBHvREf4a3\nI8EOB3j1AgMBAAECggEAZ0Gze943xfm+Mhg8dCnY105vb9ZufPSk5wtX+2/eYdWd\nMD9Upk7aPW+Stu5K+YQ1kHGyWhPeSAjMkaaEo3P+JbBfYZZ7FXn4xGFkc3xnY0Tg\nNALXGimPOVdm72zHBbuZlEUldYmD5MTZ76ExLUL/FppZPUWU+kOMTwjiAyfaom+k\nNgcoRE4TbRiDXemTl7IyH4qjaBwoB3fTdHnjNJ5AIohurlBCnptdb2pwrk474FtF\nMvYpafNGGqlHewdecx+giGnpow7DVYtSXlMCfwxIkQ539aDGQ8v5MaiEUODXX6fY\nQLS7aMGuCLcFVJbNuLh/PZ3Ld3fcePv5tNe6+IU35wKBgQD9SbCoxhb3qBkDz2kC\nOSm2iNe/GbVHfTjiExBqmMf9ka+za4czVKrCXRJCyeR6crc87mePa5nhTUZoR6sq\nrpgAUyZJBfUNqwj56RlvIOZ+F6zUuv8bTltS5axnY6ZhdJjTzwE+B3CKraFXfC9c\ndDAvCGqxVojMDqPVI7zv++9ymwKBgQDZWOS4ooM1ufWNU0dSJp9fK0wlWEa3Rnr+\ng3sbuy+67O5SkQJgji25QDaThVPmQ+EgGf0XHqiyMgbc0TDwPJ5pcOq6Jl6KZTZX\np1tJVlCfrJOxxHw9itNQHrQg+RSCdYGJKIMDpQnMd2+HTbdkkgxtt9o6hqzrbAWw\njV+/sB3zrwKBgQDiotpI2h7Y8PeZGjCaxa1WYDG0E/vKAPkyCN7qktR4RrCReYib\nXIoCqibZzi77hcQB6EyP3zbsiymRy3cUFO97cutR8duopD6+511Tu3uineqO2tfD\nhiRfE5VlWZwZnavV8mbpKtz/qYcxcbQrJOesXfqhvY1gEUV1RKodji9eOwKBgAGj\nZ+X0Y6TOCAnOrOTzoZPoEaTea3oKL/cnKpBk8tEn5Av/R9NOfw28bCzkfmNn85R4\nXa4E7ySYt/CGKyZEbrVAwqQwkdndNXGns0p0OhtaA6r9Xipgl4MtGBJ/jiYFmLpd\n8c7fOZmu9MpCTbWWXD2feyehyD/mCozwI96gBznFAoGBAMe1YG69ho53sx7vC338\ncPeYHjVd5FRL2mR8fXtICSTn+44LBGQWTJSIjovCTSx6cUp1838ojJCYzMULfvti\n/GQ/WHmw8t7dRKKHOnLXt1U+SIAExbeO3prGIeg1G/blnDcsM/ChlEZKWs53L7Wl\nJY963WbEmrq+Ceq5d54PdsX0\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bdmkj@jet-computers.iam.gserviceaccount.com",
+  "client_id": "102418325143038050351",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bdmkj%40jet-computers.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

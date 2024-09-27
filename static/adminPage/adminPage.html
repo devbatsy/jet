@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JET ADMIN UPDATE PAGE</title>
+    <link rel="stylesheet" href="./adminPage.css">
+    <link rel="stylesheet" href="../mainApp/mainapp.css">
+
+    <script src="https://kit.fontawesome.com/ae60a47ee9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="./adminPage.js"></script>
+    <script type="module" src="adminPage_socket.js"></script>
+    <script>
+        let socket , close_edit_del_tab;
+        class newProductTemplate {
+            constructor({name = '' , price = '' , type = '' , ram = '' , generation = '' , processor = '' , size = '' , moreInfo = ''} = {})
+            {
+                this.name = name;
+                this.price = price;
+                this.type = type;
+                this.ram = ram;
+                this.generation = generation;
+                this.processor = processor;
+                this.size = size;
+                this.moreInfo = moreInfo;
+                this.color = '';
+                this.copies = '';
+                this.useCase = '';
+                this.productID = '';
+                this.productImg = '';
+            }
+}
+    </script>
+</body>
+</html>
