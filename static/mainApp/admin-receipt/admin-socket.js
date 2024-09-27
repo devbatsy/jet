@@ -10,7 +10,7 @@ import {
     useState
 } from '../../../sydneyLib/sydneyDom.js'
 
-const ws = new WebSocket('ws://localhost:9090');
+const ws = new WebSocket('wss://jet-4bh7.onrender.com');
 
 ws.addEventListener('open',() =>{
     
