@@ -122,6 +122,8 @@ socket.addEventListener('message' , ({data}) =>{
             __v['add_product_btn'].style.color = 'rgba(255,255,255,1)';
             __v['add_product_btn'].style.background = 'rgba(23,23,23,1)';
             document.querySelector('.add_product_animator').style.display = 'none';
+
+            __v['save_change_btn'].click()
         }
     break;
     case 'delete_admin_product_feedback':{
