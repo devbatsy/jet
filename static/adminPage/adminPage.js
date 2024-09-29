@@ -15,7 +15,7 @@ setStyle([
             padding:'0 2px',
             position:'relative',
             // fontFamily:'ubuntu',
-            fontFamily:'"Poppins", sans-serif',
+            fontFamily:'Marcellus',
             overflowX:'hidden'
             // color:'#707070'
         }
